@@ -1,0 +1,68 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #db6bd2; /* Pink background */
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Profile image styles */
+img {
+    width: 100%;
+    max-width: 200px; /* Limit image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Square image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.title {
+    color: #db6bd2;
+    font-size: 18px;
+}
+
+/* Social media icons styles */
+a {
+    text-decoration: none;
+    color: #db6bd2;
+    margin-right: 10px;
+}
+
+/* Contact button styles */
+button {
+    background-color: #db6bd2;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(53, 47, 53);
+}
+
+
